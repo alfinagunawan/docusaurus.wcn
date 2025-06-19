@@ -1,0 +1,31 @@
+name: production-deploy-client-docusaurus
+   
+on:
+  pull_request:
+    types: 
+      -closed
+    branches:
+      - master
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'master' || github.event_name == 'push' && github.ref == 'refs/heads/master'
+    steps:
+      - uses: actions/checkout@v2
+      - run: cd frontend && docker build -t phirestudiodocker/phibase-client-docusaurus -f Dockerfile.production .
+      - run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+      - run: docker push phirestudiodocker/phibase-client-docusaurus
+      - uses: digitalocean/action@v2
+        with:
+          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+      - run: doctl kubernetes cluster kubeconfig save $CLUSTER_NAME
+        env:
+          CLUSTER_NAME: ${{ secrets.DIGITALOCEAN_CLUSTER }}
+      - run: kubectl rollout restart deployment client-docusaurus-depl

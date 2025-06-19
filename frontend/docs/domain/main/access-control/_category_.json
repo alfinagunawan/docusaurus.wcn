@@ -1,0 +1,8 @@
+{
+  "label": "Access Control",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Pengelolaan kontrol akses pengguna dapat dilakukan melalui menu ini. Berikut fitur - fitur yang terdapat dalam menu Access Control dan data yang dapat diisi."
+  }
+}
