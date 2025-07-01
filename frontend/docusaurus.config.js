@@ -8,12 +8,12 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PhiBase.io',
+  title: 'Wahana Citra Nabati',
   tagline: 'Your business solution',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docusaurus.phibase.io/',
+  url: 'https://docusaurus.wcn/',
   baseUrl: '/',
 
   // GitHub pages deployment config.
@@ -75,9 +75,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'PhiBase.io',
+        title: 'Wahana Citra Nabati',
         logo: {
-          alt: 'PhiBase.io Logo',
+          alt: 'Wahana Citra Nabati Logo',
           src: 'img/logo.svg',
         },
         items: [

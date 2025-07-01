@@ -1,0 +1,9 @@
+{
+    "label": "Master Data",
+    "position": 1,
+    "link": {
+      "type": "generated-index",
+      "description": "Pengelolaan data utama, semua data di sini akan digunakan sebagai referensi dalam proses pengisian dan pemantauan."
+    }
+  }
+  

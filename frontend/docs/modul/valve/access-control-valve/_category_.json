@@ -1,0 +1,9 @@
+{
+    "label": "Access Control",
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "Menu Access Control berfungsi untuk mengatur hak akses pengguna terhadap sistem atau aplikasi, sehingga hanya user tertentu yang dapat melakukan tindakan tertentu sesuai dengan peran atau tanggung jawabnya."
+    }
+  }
+  

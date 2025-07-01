@@ -1,0 +1,9 @@
+{
+    "label": "Apps",
+    "position": 2,
+    "link": {
+      "type": "generated-index",
+      "description": "Menu Apps digunakan untuk menjalankan dan memantau proses operasional."
+    }
+  }
+  
