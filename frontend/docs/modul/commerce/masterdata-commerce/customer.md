@@ -1,17 +1,17 @@
 ---
 title: Customer
-sidebar_position: 13
+sidebar_position: 14
 ---
 
 :::note
 **`Menu ini digunakan untuk mendata dan mengelola seluruh informasi pelanggan (customer) perusahaan.`**  Pelanggan ini bisa berupa individu, toko, perusahaan, distributor, atau entitas lain yang melakukan pembelian produk atau jasa dari perusahaan.
 
-Halaman Customer dapat dilihat pada **Gambar 2.13.1**
+Halaman Customer dapat dilihat pada **Gambar 2.14.1**
 :::
 
 <img src="/img/commerce/masterdata/customer1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.13.1 Halaman Customer
+Gambar 2.14.1 Halaman Customer
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -30,7 +30,7 @@ Gambar 2.13.1 Halaman Customer
 
 **`Berikut petunjuk dalam menambahkan Customer :`**
 
-1. **`Tekan tombol`** ***Add Customer*** dan pengguna akan diarahkan pada halaman penambahan Customer seperti pada **Gambar 2.13.2**.
+1. **`Tekan tombol`** ***Add Customer*** dan pengguna akan diarahkan pada halaman penambahan Customer seperti pada **Gambar 2.14.2**.
 
 ### Customer `Info ?`
 
@@ -40,7 +40,7 @@ Gambar 2.13.1 Halaman Customer
 
 <img src="/img/commerce/masterdata/customer2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.13.2 Halaman Add Customer Info
+Gambar 2.14.2 Halaman Add Customer Info
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -56,6 +56,7 @@ Gambar 2.13.2 Halaman Add Customer Info
 |Credit Limit Delivery|Batas maksimal nilai pengiriman yang boleh dilakukan sebelum pembayaran.|Tidak
 |Currency|Mata uang yang digunakan untuk transaksi dengan customer ini.|Tidak
 |NPWP Number|Nomor Pokok Wajib Pajak (NPWP) milik customer.|Tidak
+|NIB Number|Tanda pengenal perusahaan yang berlaku secara nasional.|Tidak
 |Default Tax|Pajak standar yang diterapkan pada transaksi customer ini.|Tidak
 |Default Weight|Berat standar (misalnya per unit produk) untuk penghitungan logistik/pengiriman.|Tidak
 |Receive Day|Hari tertentu customer ini menerima pengiriman barang.|Tidak
@@ -68,7 +69,7 @@ Gambar 2.13.2 Halaman Add Customer Info
 
 <img src="/img/commerce/masterdata/customer3.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.13.3 Halaman Add Customer Product
+Gambar 2.14.3 Halaman Add Customer Product
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
@@ -87,13 +88,14 @@ Gambar 2.13.3 Halaman Add Customer Product
 
 <img src="/img/commerce/masterdata/customer4.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.13.4 Halaman Add Customer Address
+Gambar 2.14.4 Halaman Add Customer Address
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
 |Bill To Address|Alamat penagihan untuk customer, biasanya digunakan pada dokumen invoice atau faktur.|Tidak|
 |Ship To Address|Alamat pengiriman barang ke customer.|Tidak
+|Notify Party Address|Alamat pihak yang harus diberi pemberitahuan ketika barang tiba di pelabuhan tujuan atau saat proses pengiriman.|Tidak
 |Address Name|Nama label atau identitas alamat, misalnya: ***“Kantor Pusat”***, dll.|Tidak
 |NITKU Number (22 Digits)|Nomor identitas lokasi alamat untuk keperluan pajak atau kepatuhan, wajib 22 digit.|Tidak
 |Address|Alamat lengkap tempat penagihan dilakukan.|Tidak
@@ -109,13 +111,14 @@ Gambar 2.13.4 Halaman Add Customer Address
 
 <img src="/img/commerce/masterdata/customer5.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.13.5 Halaman Add Customer Bank
+Gambar 2.14.5 Halaman Add Customer Bank
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
 |Bank|Nama bank tempat customer membuka rekening, misalnya BCA, Mandiri, dll.|Tidak
 |Account |Akun pemilik rekening.|Tidak
+|Swift Code|kode identifikasi internasional yang digunakan untuk mengenali bank secara unik dalam transaksi keuangan global.|Tidak
 |Address|Alamat pemilik rekening.|Tidak
 |Note|Catatan tambahan, seperti jenis rekening|Tidak
 |Default|Menandai rekening ini sebagai default account, yaitu rekening utama yang akan digunakan jika customer memiliki lebih dari satu rekening.|Tidak
@@ -128,7 +131,7 @@ Gambar 2.13.5 Halaman Add Customer Bank
 
 <img src="/img/commerce/masterdata/customer6.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.13.6 Halaman Add Customer Term of Payment
+Gambar 2.14.6 Halaman Add Customer Term of Payment
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
@@ -146,7 +149,7 @@ Gambar 2.13.6 Halaman Add Customer Term of Payment
 
 <img src="/img/commerce/masterdata/customer7.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.13.7 Halaman Add Customer Term of Payment
+Gambar 2.14.7 Halaman Add Customer Term of Payment
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|

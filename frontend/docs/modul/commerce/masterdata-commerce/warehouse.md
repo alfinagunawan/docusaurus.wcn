@@ -1,17 +1,17 @@
 ---
 title: Warehouse
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 :::note
 **`Menu ini digunakan untuk mendata, mengelola, dan mengorganisasi lokasi gudang dalam perusahaan. `** Warehouse adalah tempat penyimpanan barang/material, baik untuk bahan baku, barang setengah jadi, hingga barang jadi yang siap dikirim.
 
-Halaman Warehouse dapat dilihat pada **Gambar 2.10.1**
+Halaman Warehouse dapat dilihat pada **Gambar 2.11.1**
 :::
 
 <img src="/img/commerce/masterdata/wh1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.10.1 Halaman Warehouse
+Gambar 2.11.1 Halaman Warehouse
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -30,11 +30,11 @@ Gambar 2.10.1 Halaman Warehouse
 
 **`Berikut petunjuk dalam menambahkan Gudang :`**
 
-1. **`Tekan tombol`** ***Add Warehouse*** dan pengguna akan diarahkan pada halaman penambahan Gudang seperti pada **Gambar 2.10.2**.
+1. **`Tekan tombol`** ***Add Warehouse*** dan pengguna akan diarahkan pada halaman penambahan Gudang seperti pada **Gambar 2.11.2**.
 
 <img src="/img/commerce/masterdata/wh2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.10.2 Halaman Add Warehouse
+Gambar 2.11.2 Halaman Add Warehouse
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

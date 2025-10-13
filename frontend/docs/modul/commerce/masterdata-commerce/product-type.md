@@ -1,17 +1,17 @@
 ---
 title: Product Type
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 :::note
 **`Menu ini digunakan untuk mengelompokkan produk berdasarkan fungsi, sifat, atau cara pengelolaannya dalam sistem`**.
 
-Halaman Product Type dapat dilihat pada **Gambar 2.4.1**
+Halaman Product Type dapat dilihat pada **Gambar 2.5.1**
 :::
 
 <img src="/img/commerce/masterdata/productype1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.4.1 Halaman Product Type
+Gambar 2.5.1 Halaman Product Type
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -29,11 +29,11 @@ Gambar 2.4.1 Halaman Product Type
 
 **`Berikut petunjuk dalam menambahkan Product Type :`**
 
-1. **`Tekan tombol`** ***Add Product Type*** dan pengguna akan diarahkan pada halaman penambahan tipe produk seperti pada **Gambar 2.4.2**.
+1. **`Tekan tombol`** ***Add Product Type*** dan pengguna akan diarahkan pada halaman penambahan tipe produk seperti pada **Gambar 2.5.2**.
 
 <img src="/img/commerce/masterdata/productype2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.4.2 Halaman Add Product Type
+Gambar 2.5.2 Halaman Add Product Type
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

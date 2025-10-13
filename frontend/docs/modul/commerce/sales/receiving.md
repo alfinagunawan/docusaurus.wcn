@@ -1,17 +1,17 @@
 ---
 title: Receiving
-sidebar_position: 10
+sidebar_position: 13
 ---
 
 :::note
 **`Menu ini digunakan untuk pencatatan penerimaan dana dari customer atau pihak lain.`** 
 
-Halaman Receiving dapat dilihat pada **Gambar 7.10.1**.
+Halaman Receiving dapat dilihat pada **Gambar 7.13.1**.
 :::
 
 <img src="/img/commerce/sales/receiving1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 7.10.1 Halaman Receiving
+Gambar 7.13.1 Halaman Receiving
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -28,21 +28,21 @@ Gambar 7.10.1 Halaman Receiving
 
 **`Berikut petunjuk dalam menambahkan Receiving :`**
 
-1. **`Tekan tombol`** ***Add Receiving*** dan pengguna akan diarahkan pada halaman penambahan data penerimaan dana seperti pada **Gambar 7.10.2**.
+1. **`Tekan tombol`** ***Add Receiving*** dan pengguna akan diarahkan pada halaman penambahan data penerimaan dana seperti pada **Gambar 7.13.2**.
 
 <img src="/img/commerce/sales/receiving2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 7.10.2 Halaman Add Receiving
+Gambar 7.13.2 Halaman Add Receiving
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
 |Source|Sumber dana yang diterima.|Ya
-|Payment Date|Tanggal ketika pembayaran benar-benar diterima (tanggal transfer atau bukti setoran).|Ya
 |Posting Date|Tanggal pencatatan dalam sistem akuntansi.|Ya
-|Note|Catatan tambahan untuk menjelaskan detail pembayaran.|Tidak
 |Type|Jenis transaksi penerimaan dana, • ***Payment*** : Pembayaran atas tagihan/invoice. • ***Down Payment*** : Uang muka sebelum barang/jasa dikirim. • ***Refund*** : Dana dikembalikan ke sistem akibat pembatalan atau kelebihan pembayaran.|Ya
-|Order|Dokumen sumber dari transaksi, • ***Invoice*** : Jika dana masuk berkaitan dengan invoice tertentu. • ***Order*** : Jika masih tahap sales order dan belum difakturkan, misalnya saat menerima DP.
+|Payment Date|Tanggal ketika pembayaran benar-benar diterima (tanggal transfer atau bukti setoran).|Ya
+|Note|Catatan tambahan untuk menjelaskan detail pembayaran.|Tidak
+|Order|Dokumen sumber dari transaksi, • ***Invoice*** : Jika dana masuk berkaitan dengan invoice tertentu. • ***Order*** : Jika masih tahap sales order dan belum difakturkan, misalnya saat menerima DP.|Ya
 |Currency|Mata uang yang digunakan dalam transaksi pembayaran.|Ya
 |Converted Currency|Mata uang lokal atau yang digunakan dalam sistem pembukuan.|Ya
 |Currency Rate|Nilai tukar antara currency transaksi dan converted currency.|Ya
@@ -59,12 +59,12 @@ Gambar 7.10.2 Halaman Add Receiving
 
 **`Berikut petunjuk dalam melakukan pembatalan Receiving :`**
 
-1. **`Tekan tombol`** ***Details*** dan pengguna akan diarahkan pada halaman details data Receiving seperti pada **Gambar 7.10.3**.
+1. **`Tekan tombol`** ***Details*** dan pengguna akan diarahkan pada halaman details data Receiving seperti pada **Gambar 7.13.3**.
 
 <img src="/img/commerce/sales/receiving3.png" alt="Deskripsi gambar" class="center" />
 <img src="/img/commerce/sales/receiving4.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 7.10.3 Tombol Cancel Halaman Details Receiving
+Gambar 7.13.3 Tombol Cancel Halaman Details Receiving
 </p>
 
 2. **`Tekan tombol`** ***Cancel*** lalu proses Receiving telah dibatalkan.

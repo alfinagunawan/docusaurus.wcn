@@ -1,17 +1,17 @@
 ---
 title: Tax
-sidebar_position: 20
+sidebar_position: 21
 ---
 
 :::note
 **`Menu ini digunakan untuk menambahkan jenis pajak mereka sendiri yang akan berlaku secara global, seperti pada pesanan pembelian, pesanan penjualan, dan lain sebagainya. `** 
 
-Halaman Tax dapat dilihat pada **Gambar 2.20.1**
+Halaman Tax dapat dilihat pada **Gambar 2.21.1**
 :::
 
 <img src="/img/commerce/masterdata/tax1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.20.1 Halaman Tax
+Gambar 2.21.1 Halaman Tax
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -29,11 +29,11 @@ Gambar 2.20.1 Halaman Tax
 
 **`Berikut petunjuk dalam menambahkan Tax :`**
 
-1. **`Tekan tombol`** ***Add Tax*** dan pengguna akan diarahkan pada halaman penambahan pajak seperti pada **Gambar 2.20.2**.
+1. **`Tekan tombol`** ***Add Tax*** dan pengguna akan diarahkan pada halaman penambahan pajak seperti pada **Gambar 2.21.2**.
 
 <img src="/img/commerce/masterdata/tax2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.20.2 Halaman Add Tax
+Gambar 2.21.2 Halaman Add Tax
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -46,6 +46,7 @@ Gambar 2.20.2 Halaman Add Tax
 |Type| Jenis pajak yang diterapkan (***Tax*** : Pajak umum yang dikenakan pada transaksi jual beli. ***Withholding Tax*** : Pajak yang dipotong langsung dari nilai pembayaran kepada pihak lain, biasanya atas jasa atau penghasilan tertentu.)|Ya
 |Percentage|Persentase pajak|Ya
 |Code|Kode unik untuk pajak|Ya
+|CoA|Akun akuntansi tempat pajak tersebut akan dicatat secara otomatis.|Tidak
 |Description|Deskripsi singkat mengenai pajak yang ditambahkan|Tidak
 
 2. **`Isilah data penambahan Tax`** lalu tekan tombol ***Submit***.

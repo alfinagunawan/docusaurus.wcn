@@ -1,17 +1,17 @@
 ---
 title: Bank
-sidebar_position: 11
+sidebar_position: 12
 ---
 
 :::note
 **`Menu ini digunakan untuk mendata, mengelola, dan menghubungkan informasi rekening bank yang dimiliki perusahaan atau yang digunakan dalam proses transaksi, seperti pembayaran ke vendor, penerimaan dari customer, atau transaksi internal. `** 
 
-Halaman Bank dapat dilihat pada **Gambar 2.11.1**
+Halaman Bank dapat dilihat pada **Gambar 2.12.1**
 :::
 
 <img src="/img/commerce/masterdata/bank1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.11.1 Halaman Bank
+Gambar 2.12.1 Halaman Bank
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -30,11 +30,11 @@ Gambar 2.11.1 Halaman Bank
 
 **`Berikut petunjuk dalam menambahkan Bank :`**
 
-1. **`Tekan tombol`** ***Add Bank*** dan pengguna akan diarahkan pada halaman penambahan Bank seperti pada **Gambar 2.11.2**.
+1. **`Tekan tombol`** ***Add Bank*** dan pengguna akan diarahkan pada halaman penambahan Bank seperti pada **Gambar 2.12.2**.
 
 <img src="/img/commerce/masterdata/bank2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.11.2 Halaman Add Bank
+Gambar 2.12.2 Halaman Add Bank
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -43,8 +43,10 @@ Gambar 2.11.2 Halaman Add Bank
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
-|Name|Nama atau kode identitas unik untuk Bank.|Ya
 |Code|Kode unik untuk identifikasi internal entri akun atau bank tersebut.|Ya
+|Name|Nama atau kode identitas unik untuk Bank.|Ya
+|CoA|(Chart of Accounts) Akun dari Chart of Accounts yang terhubung dengan bank tersebut.|Tidak
+|Swift Code|Kode unik internasional yang dipakai untuk identifikasi bank dalam transaksi antar bank (biasanya transfer internasional).|Tidak
 |Description|Penjelasan singkat mengenai entri tersebut, biasanya berupa tujuan atau jenis akun.|Tidak
 |Number (Account List)|Nomor rekening bank dari daftar akun.|Tidak
 |Name (Account List)|Nama pemilik rekening yang tercatat di bank|Tidak

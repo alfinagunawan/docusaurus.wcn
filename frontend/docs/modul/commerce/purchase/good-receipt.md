@@ -40,13 +40,15 @@ Gambar 6.4.2 Halaman Add Good Receipt
 |Posting Date|Tanggal dokumen pencatatan dilakukan di sistem. Bisa berbeda dengan tanggal barang diterima.|Ya
 |Received By|Nama orang yang bertugas menerima barang di gudang (bisa tim gudang, admin logistik, dll).|Ya
 |Received Date|	Tanggal barang fisik benar-benar diterima dari supplier.|Ya
+|Delivery Number|Nomor unik untuk setiap dokumen pengiriman (Delivery Order / DO).|Tidak
 |Purchase Order|Pilih PO yang relevan dengan barang yang dikirim. Sistem akan menarik detail produk dari PO tersebut.|Ya
-|Product|Daftar produk yang terdapat dalam PO yang dipilih. Jika PO sudah terpilih, kolom ini akan otomatis aktif.|Otomatis terisi mengikuti PO yang dipilih
+|Weightbridge Data|Data hasil penimbangan barang/armada di jembatan timbang (weighbridge).|Tidak
 |Note|Catatan tambahan, misalnya kondisi barang, kekurangan kuantitas, kerusakan, atau dokumen tidak lengkap.|Tidak
-|Order Summary|Tabel ringkasan barang yang diterima, termasuk nama produk dan jumlah. Akan muncul otomatis setelah PO dipilih.|Otomatis terisi mengikuti PO yang dipilih
+|Remark|Mirip dengan note, tapi biasanya lebih singkat dan digunakan sebagai highlight/keterangan khusus.|Tidak
+|Internal Note|Catatan khusus yang hanya bisa dilihat internal perusahaan, tidak tampil di dokumen resmi yang dikirim keluar.|Tidak
 |File|Upload file pendukung seperti surat jalan, bukti pengiriman, foto kondisi barang, atau dokumen lainnya.|Tidak
 
-2. **`Pilih Purchase Order pada field`** ***Purchase Order***, dan sistem akan menampilkan detail produk yang terdapat pada PO tersebut, seperti ditunjukkan pada **Gambar 6.4.3**.
+2. **`Pilih Supplier pada field`** ***Supplier***, dan sistem akan mengaktifkan kolom Puchase order dan menampilkan detail produk yang terdapat pada PO tersebut, seperti ditunjukkan pada **Gambar 6.4.3**.
 
 <img src="/img/commerce/purchase/good3.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>

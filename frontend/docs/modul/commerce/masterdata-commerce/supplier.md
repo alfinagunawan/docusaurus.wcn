@@ -1,17 +1,17 @@
 ---
 title: Supplier
-sidebar_position: 14
+sidebar_position: 15
 ---
 
 :::note
 **`Menu ini digunakan untuk mendata dan mengelola seluruh informasi pemasok (supplier) perusahaan.`**  Pemasok ini bisa berupa individu, toko, perusahaan, distributor, atau entitas lain yang menyediakan produk atau jasa kepada perusahaan.
 
-Halaman Supplier dapat dilihat pada **Gambar 2.14.1**
+Halaman Supplier dapat dilihat pada **Gambar 2.15.1**
 :::
 
 <img src="/img/commerce/masterdata/supplier1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.14.1 Halaman Supplier
+Gambar 2.15.1 Halaman Supplier
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -30,7 +30,7 @@ Gambar 2.14.1 Halaman Supplier
 
 **`Berikut petunjuk dalam menambahkan Supplier :`**
 
-1. **`Tekan tombol`** ***Add Supplier*** dan pengguna akan diarahkan pada halaman penambahan Supplier seperti pada **Gambar 2.14.2**.
+1. **`Tekan tombol`** ***Add Supplier*** dan pengguna akan diarahkan pada halaman penambahan Supplier seperti pada **Gambar 2.15.2**.
 
 ### Supplier `Info ?`
 
@@ -40,7 +40,7 @@ Gambar 2.14.1 Halaman Supplier
 
 <img src="/img/commerce/masterdata/supplier2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.14.2 Halaman Add Supplier Info
+Gambar 2.15.2 Halaman Add Supplier Info
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -56,6 +56,7 @@ Gambar 2.14.2 Halaman Add Supplier Info
 |Credit Limit Delivery|Batas maksimal nilai pengiriman yang boleh dilakukan sebelum pembayaran.|Tidak
 |Currency|Mata uang yang digunakan untuk transaksi dengan supplier ini.|Tidak
 |NPWP Number|Nomor Pokok Wajib Pajak (NPWP) milik supplier.|Tidak
+|NIB Number|Tanda pengenal perusahaan yang berlaku secara nasional.|Tidak
 |Default Tax|Pajak standar yang diterapkan pada transaksi supplier ini.|Tidak
 |Default Weight|Berat standar (misalnya per unit produk) untuk penghitungan logistik/pengiriman.|Tidak
 |Receive Day|Hari tertentu di mana supplier bisa menerima permintaan pembelian, melakukan pengiriman, atau menangani order dari perusahaan.|Tidak
@@ -68,7 +69,7 @@ Gambar 2.14.2 Halaman Add Supplier Info
 
 <img src="/img/commerce/masterdata/supplier3.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.14.3 Halaman Add Supplier Product
+Gambar 2.15.3 Halaman Add Supplier Product
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
@@ -87,13 +88,14 @@ Gambar 2.14.3 Halaman Add Supplier Product
 
 <img src="/img/commerce/masterdata/supplier4.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.14.4 Halaman Add Supplier Address
+Gambar 2.15.4 Halaman Add Supplier Address
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
 |Bill To Address|Alamat penagihan untuk supplier, biasanya digunakan pada dokumen invoice atau faktur.|Tidak|
 |Ship To Address|Alamat pengiriman barang dari supplier.|Tidak
+|Notify Party Address|Alamat pihak yang harus diberi pemberitahuan ketika barang tiba di pelabuhan tujuan atau saat proses pengiriman.|Tidak
 |Address Name|Nama label atau identitas alamat, misalnya: ***“Kantor Pusat”***, dll.|Tidak
 |NITKU Number (22 Digits)|Nomor identitas lokasi alamat untuk keperluan pajak atau kepatuhan, wajib 22 digit.|Tidak
 |Address|Alamat lengkap tempat penagihan dilakukan.|Tidak
@@ -108,13 +110,14 @@ Gambar 2.14.4 Halaman Add Supplier Address
 
 <img src="/img/commerce/masterdata/supplier5.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.14.5 Halaman Add Supplier Bank
+Gambar 2.15.5 Halaman Add Supplier Bank
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
 |Bank|Nama bank tempat supplier membuka rekening, misalnya BCA, Mandiri, dll.|Tidak
 |Account |Akun pemilik rekening.|Tidak
+|Swift Code|kode identifikasi internasional yang digunakan untuk mengenali bank secara unik dalam transaksi keuangan global.|Tidak
 |Address|Alamat pemilik rekening.|Tidak
 |Note|Catatan tambahan, seperti jenis rekening|Tidak
 |Default|Menandai rekening ini sebagai default account, yaitu rekening utama yang akan digunakan jika customer memiliki lebih dari satu rekening.|Tidak
@@ -127,7 +130,7 @@ Gambar 2.14.5 Halaman Add Supplier Bank
 
 <img src="/img/commerce/masterdata/supplier6.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.14.6 Halaman Add Supplier Term of Payment
+Gambar 2.15.6 Halaman Add Supplier Term of Payment
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
@@ -145,7 +148,7 @@ Gambar 2.14.6 Halaman Add Supplier Term of Payment
 
 <img src="/img/commerce/masterdata/supplier7.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.14.7 Halaman Add Supplier Term of Payment
+Gambar 2.15.7 Halaman Add Supplier Term of Payment
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|

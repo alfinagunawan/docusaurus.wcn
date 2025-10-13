@@ -1,17 +1,17 @@
 ---
 title: UoM
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 :::note
 **`Unit of Measurement adalah satuan ukuran yang digunakan untuk barang`**. 
 
-Halaman UoM dapat dilihat pada **Gambar 2.1.1**
+Halaman UoM dapat dilihat pada **Gambar 2.2.1**
 :::
 
 <img src="/img/commerce/masterdata/uom1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.1.1 Halaman UoM
+Gambar 2.2.1 Halaman UoM
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -22,6 +22,7 @@ Gambar 2.1.1 Halaman UoM
 |Filter|Menyaring data dengan kondisi tertentu|Tekan tombol Filter.|
 |Reset Filter|Mengembalikan data pada kondisi semula|Tekan tombol Reset Filter.|
 |Edit|Menyunting satuan ukuran.|Tekan tombol Edit pada kolom Action.|
+|Daily Stock|
 |Delete|Menghapus satuan ukuran.|Tekan tombol Delete pada kolom Action.|
 |Multiple Delete|Menghapus beberapa satuan ukuran sekaligus.|Pilih satuan ukuran baris atau dengan mencentang kotak pada sebelah kiri. Kemudian tekan tombol Multiple  Delete (berwarna merah).|
 
@@ -29,11 +30,11 @@ Gambar 2.1.1 Halaman UoM
 
 **`Berikut petunjuk dalam menambahkan UoM :`**
 
-1. **`Tekan tombol`** ***Add UoM*** dan pengguna akan diarahkan pada halaman penambahan Satuan Ukuran seperti pada **Gambar 2.1.2**.
+1. **`Tekan tombol`** ***Add UoM*** dan pengguna akan diarahkan pada halaman penambahan Satuan Ukuran seperti pada **Gambar 2.2.2**.
 
 <img src="/img/commerce/masterdata/uom2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.1.2 Halaman Add UoM
+Gambar 2.2.2 Halaman Add UoM
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

@@ -31,38 +31,45 @@ Gambar 6.3.1 Halaman Expense
 1. **`Tekan tombol`** ***Add Expense*** dan pengguna akan diarahkan pada halaman penambahan data pengeluaran seperti pada **Gambar 6.3.2**.
 
 <img src="/img/commerce/purchase/expense2.png" alt="Deskripsi gambar" class="center" />
-<img src="/img/commerce/purchase/expense3.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
 Gambar 6.3.2 Halaman Add Expense
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
-|Supplier|Nama vendor atau penyedia barang/jasa yang akan dihubungi.|Ya
-|Required Date|Tanggal kebutuhan atau penggunaan biaya/pengeluaran tersebut.|Ya
-|Purchaser|Nama pengguna atau staf bagian pembelian yang mengajukan atau mencatat pengeluaran ini.|Ya
-|Contact Person|Nama orang yang menjadi kontak terkait transaksi expense, baik dari internal maupun dari pihak vendor/jasa.|Tidak
 |Posting Date|Tanggal pencatatan expense ke dalam sistem.|Ya
-|Term of Payment|Ketentuan pembayaran untuk expense ini, seperti "Net 30", "Cash", atau "CBD (Cash Before Delivery)".|Tidak
 |Currency|Mata uang yang digunakan untuk mencatat nilai pengeluaran.|Ya
 |Expense Type|Jenis pengeluaran.|Tidak
-|Product|Produk atau jasa yang terkait dengan pengeluaran ini (jika ada).|Tidak
+|Paid Form|Sumber dana yang digunakan untuk membayar expense (pengeluaran).|Tidak
 |Note|Keterangan tambahan atau catatan penjelas mengenai pengeluaran yang dicatat.|Tidak
+|Remark|Mirip dengan note, tapi biasanya lebih singkat dan digunakan sebagai highlight/keterangan khusus.|Tidak
+|Internal Note|Catatan khusus yang hanya bisa dilihat internal perusahaan, tidak tampil di dokumen resmi yang dikirim keluar.|Tidak
 |File|Upload dokumen pendukung seperti invoice, bukti pembayaran, atau surat jalan.|Tidak
 
-2. **`Isilah data penambahan pengeluran`** lalu tekan tombol ***Submit***.
+2. **`Isilah data pemilihan mata uang`** (***currency***), dan sistem akan menampilkan form product seperti yang ditunjukkan pada **Gambar 6.3.3**.
+
+<img src="/img/commerce/purchase/expense3.png" alt="Deskripsi gambar" class="center" />
+<p style={{textAlign: 'center', fontSize: '0.8em'}}>
+Gambar 6.3.3 Form Product
+</p>
+
+|Isian|Deskripsi|Wajib Diisi|
+|--|--|--|
+|Product|Produk atau jasa yang terkait dengan pengeluaran ini (jika ada).|Tidak
+
+3. **`Isilah data penambahan pengeluran`** lalu tekan tombol ***Submit***.
 
 ## Setuju & Tolak `Expense ?`
 
 **`Berikut petunjuk dalam melakukan setuju & tolak Expense :`**
 
-1. **`Tekan tombol`** ***Details*** dan pengguna akan diarahkan pada halaman details data Expense seperti pada **Gambar 6.3.3**.
+1. **`Tekan tombol`** ***Details*** dan pengguna akan diarahkan pada halaman details data Expense seperti pada **Gambar 6.3.4**.
 
 <img src="/img/commerce/purchase/expense4.png" alt="Deskripsi gambar" class="center" />
 <img src="/img/commerce/purchase/expense5.png" alt="Deskripsi gambar" class="center" />
 <img src="/img/commerce/purchase/expense6.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 6.3.3 Halaman Details Expense
+Gambar 6.3.4 Halaman Details Expense
 </p>
 
 2. **`Tentukan pengeluaran`** dengan menekan tombol ***Approve*** untuk menyetujui atau ***Reject*** untuk menolak.
@@ -75,12 +82,12 @@ Gambar 6.3.3 Halaman Details Expense
 
 **`Berikut petunjuk dalam melakukan pembatalan Expense :`**
 
-1. **`Tekan tombol`** ***Details*** dan pengguna akan diarahkan pada halaman details data Expense seperti pada **Gambar 6.3.4**.
+1. **`Tekan tombol`** ***Details*** dan pengguna akan diarahkan pada halaman details data Expense seperti pada **Gambar 6.3.5**.
 
 <img src="/img/commerce/purchase/expense7.png" alt="Deskripsi gambar" class="center" />
 <img src="/img/commerce/purchase/expense8.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 6.3.4 Tombol Cancel Halaman Details Expense
+Gambar 6.3.5 Tombol Cancel Halaman Details Expense
 </p>
 
 2. **`Tekan tombol`** ***Cancel*** lalu proses Expense telah dibatalkan.
@@ -99,7 +106,7 @@ Gambar 6.3.4 Tombol Cancel Halaman Details Expense
 
 <img src="/img/commerce/purchase/expense8.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 6.3.5 Tombol Closed Halaman Details Expense
+Gambar 6.3.6 Tombol Closed Halaman Details Expense
 </p>
 
 ## Generate Income ?
@@ -114,12 +121,12 @@ Gambar 6.3.5 Tombol Closed Halaman Details Expense
 
 2. **`Gulir halaman kebawah`**, lalu tekan tombol ***Generate Income***.
 
-3. **`Sistem akan mengarahkan ke halaman generate income`** seperti yang ditunjukan pada **Gambar 6.3.6**.
+3. **`Sistem akan mengarahkan ke halaman generate income`** seperti yang ditunjukan pada **Gambar 6.3.7**.
 
 <img src="/img/commerce/purchase/expense9.png" alt="Deskripsi gambar" class="center" />
 <img src="/img/commerce/purchase/expense10.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 6.3.6 Halaman Generate Income
+Gambar 6.3.7 Halaman Generate Income
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|

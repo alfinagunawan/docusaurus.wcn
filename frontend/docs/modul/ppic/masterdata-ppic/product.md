@@ -63,6 +63,8 @@ Gambar 2.5.2 Halaman Add Product
 |Item Per Purchase|Jumlah item per unit pembelian.|Tidak
 |Sales UoM|Satuan penjualan.|Tidak
 |Item Per Sales|Jumlah item per unit penjualan.|Tidak
+|Formula Name|Nama dari formula/resep yang dibuat.|Tidak
+|Note|Catatan tambahan untuk formula, bisa berupa instruksi produksi atau keterangan khusus.|Tidak
 |BOM Type|Menentukan jenis Bill of Materials yang digunakan.|Tidak
 |Production Quantity|Jumlah unit produk akhir yang akan dihasilkan dari 1 kali proses produksi berdasarkan BOM ini. Misalnya: 1 liter, 1 dus, 1 unit, dll.|Tidak
 |Side Product|Komponen hasil samping yang ikut dihasilkan dalam proses produksi (jika ada).|Tidak

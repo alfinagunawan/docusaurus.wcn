@@ -1,17 +1,17 @@
 ---
 title: Payment System
-sidebar_position: 16
+sidebar_position: 17
 ---
 
 :::note
 **`Menu ini digunakan untuk mengatur dan mencatat metode atau sistem pembayaran yang digunakan dalam transaksi antara perusahaan dengan customer maupun supplier.`** 
 
-Halaman Payment System dapat dilihat pada **Gambar 2.16.1**
+Halaman Payment System dapat dilihat pada **Gambar 2.17.1**
 :::
 
 <img src="/img/commerce/masterdata/paysystem1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.16.1 Halaman Payment System
+Gambar 2.17.1 Halaman Payment System
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -29,11 +29,11 @@ Gambar 2.16.1 Halaman Payment System
 
 **`Berikut petunjuk dalam menambahkan Payment System :`**
 
-1. **`Tekan tombol`** ***Add Payment System*** dan pengguna akan diarahkan pada halaman penambahan sistem pembayaran seperti pada **Gambar 2.16.2**.
+1. **`Tekan tombol`** ***Add Payment System*** dan pengguna akan diarahkan pada halaman penambahan sistem pembayaran seperti pada **Gambar 2.17.2**.
 
-<img src="/img/commerce/masterdata/term2.png" alt="Deskripsi gambar" class="center" />
+<img src="/img/commerce/masterdata/paysystem2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.16.2 Halaman Add Payment System
+Gambar 2.17.2 Halaman Add Payment System
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

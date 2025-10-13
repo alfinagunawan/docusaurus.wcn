@@ -1,17 +1,17 @@
 ---
 title: Tank
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 :::note
 **`Menu ini digunakan untuk mencatat, mengelola, dan memantau informasi mengenai tangki penyimpanan yang digunakan dalam proses produksi atau penyimpanan bahan baku, bahan setengah jadi, atau produk jadi`**.
 
-Halaman Tank dapat dilihat pada **Gambar 2.7.1**
+Halaman Tank dapat dilihat pada **Gambar 2.8.1**
 :::
 
 <img src="/img/commerce/masterdata/tank1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.7.1 Halaman Tank
+Gambar 2.8.1 Halaman Tank
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -29,11 +29,11 @@ Gambar 2.7.1 Halaman Tank
 
 **`Berikut petunjuk dalam menambahkan Tank :`**
 
-1. **`Tekan tombol`** ***Add Tank*** dan pengguna akan diarahkan pada halaman penambahan tangki seperti pada **Gambar 2.7.2**.
+1. **`Tekan tombol`** ***Add Tank*** dan pengguna akan diarahkan pada halaman penambahan tangki seperti pada **Gambar 2.8.2**.
 
 <img src="/img/commerce/masterdata/tank2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.7.2 Halaman Add Tank
+Gambar 2.8.2 Halaman Add Tank
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

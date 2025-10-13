@@ -1,17 +1,17 @@
 ---
 title: Category
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 :::note
 **`Menu ini digunakan untuk mengelompokkan jenis-jenis material atau produk yang dikelola dalam sistem`**.
 
-Halaman Category dapat dilihat pada **Gambar 2.3.1**
+Halaman Category dapat dilihat pada **Gambar 2.4.1**
 :::
 
 <img src="/img/commerce/masterdata/category1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.3.1 Halaman Category
+Gambar 2.4.1 Halaman Category
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -29,11 +29,11 @@ Gambar 2.3.1 Halaman Category
 
 **`Berikut petunjuk dalam menambahkan Category :`**
 
-1. **`Tekan tombol`** ***Add Category*** dan pengguna akan diarahkan pada halaman penambahan Kategori seperti pada **Gambar 2.3.2**.
+1. **`Tekan tombol`** ***Add Category*** dan pengguna akan diarahkan pada halaman penambahan Kategori seperti pada **Gambar 2.4.2**.
 
 <img src="/img/commerce/masterdata/category2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.3.2 Halaman Add Category
+Gambar 2.4.2 Halaman Add Category
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

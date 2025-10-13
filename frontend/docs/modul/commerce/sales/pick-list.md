@@ -36,17 +36,13 @@ Gambar 7.5.2 Halaman Add Pick List
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
-|Customer|Nama pelanggan yang memesan barang.|Ya
-|Sales Order|Nomor atau referensi dari Sales Order yang menjadi dasar pembuatan Pick List.|Ya
-|Posting Date|	Tanggal saat pick list dibuat atau dimasukkan ke sistem.|Ya
-|PO Number|Nomor Purchase Order dari customer, untuk referensi tambahan agar dokumen bisa dilacak ke pemesanan asli dari pihak pembeli.|Tidak
-|Etrest Number|Nomor referensi internal tambahan.|Tidak
-|Product|Daftar produk yang akan diambil dari gudang.|Ya
-|Note|Catatan tambahan yang perlu diperhatikan oleh tim gudang, seperti kondisi khusus, pengemasan, atau permintaan customer.|Tidak
-|Order Summary|Ringkasan dari seluruh item dan jumlah yang perlu diambil berdasarkan sales order.|Otomatis terisi sesuai dengan product yang dipilih.|
-|File|Dokumen pendukung seperti copy PO, layout gudang, gambar produk, atau dokumen QC (Quality Check) yang dibutuhkan sebelum pengambilan barang.|Tidak
+|Posting Date|Tanggal pencatatan picklist ke dalam sistem.|Ya
+|Sales Type|Jenis penjualan yang terkait dengan picklist.|Tidak
+|Note|Catatan umum terkait picklist.|Tidak
+|Remark|Keterangan tambahan yang sifatnya lebih singkat sebagai penanda khusus.|Tidak
+|Internal Note|Catatan internal yang hanya bisa dilihat oleh tim perusahaa (tidak tampil di dokumen resmi).|Tidak
 
-2. **`Pilih Product pada field`** ***Product***, dan sistem akan menampilkan detail produk, seperti ditunjukkan pada **Gambar 7.5.3**.
+2. **`Pilih Sales Type pada field`** ***Sales Type***, dan sistem akan menampilkan detail produk, seperti ditunjukkan pada **Gambar 7.5.3**.
 
 <img src="/img/commerce/sales/pick3.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
@@ -55,10 +51,15 @@ Gambar 7.5.3 Form Detail Product
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
-|Quantity|Jumlah unit produk atau jasa yang diterima pembayarannya.|Ya
-|Address|Alamat pengiriman produk terkait transaksi income ini.|Ya
-|Delivery Date|Tanggal pengiriman barang dilakukan atau direncanakan.|Ya
-|Note|Catatan tambahan terkait produk atau transaksi spesifik ini.|Tidak
+|Customer|Nama pelanggan yang terkait dengan produk dalam picklist.|Tidak
+|PO Number|Nomor Purchase Order (PO) dari customer yang menjadi dasar pemesanan produk.|Tida
+|Address|Alamat tujuan pengiriman produk.|Tidak
+|Sales Order|Nomor Sales Order (SO) internal yang menjadi acuan transaksi.|Tidak
+|Product Name|Nama produk/jasa yang akan dipick.|Tidak
+|Product ID|Kode unik produk dari master data.|Tidak
+|Qty Pick List|Jumlah barang yang harus disiapkan/dipick untuk pesanan ini.|Tidak
+|Delivery Date|Tanggal barang dijadwalkan dikirim ke customer.|Tidak
+|Note|Catatan tambahan khusus terkait produk yang dipick.|Tidak
 
 3. **`Isilah data penambahan Pick List`**, lalu tekan tombol ***Submit***.
 

@@ -1,17 +1,17 @@
 ---
 title: Order Type
-sidebar_position: 22
+sidebar_position: 24
 ---
 
 :::note
 **`Menu ini digunakan untuk mendefinisikan jenis-jenis pesanan (order) yang digunakan dalam proses bisnis perusahaan. `** 
 
-Halaman Order Type dapat dilihat pada **Gambar 2.22.1**
+Halaman Order Type dapat dilihat pada **Gambar 2.24.1**
 :::
 
 <img src="/img/commerce/masterdata/order-type.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.22.1 Halaman Order Type
+Gambar 2.24.1 Halaman Order Type
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -30,11 +30,11 @@ Gambar 2.22.1 Halaman Order Type
 
 **`Berikut petunjuk dalam menambahkan Order Type :`**
 
-1. **`Tekan tombol`** ***Add Order Type*** dan pengguna akan diarahkan pada halaman penambahan jenis pesanan seperti pada **Gambar 2.22.2**.
+1. **`Tekan tombol`** ***Add Order Type*** dan pengguna akan diarahkan pada halaman penambahan jenis pesanan seperti pada **Gambar 2.24.2**.
 
 <img src="/img/commerce/masterdata/order-type2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.22.2 Halaman Add Order Type
+Gambar 2.24.2 Halaman Add Order Type
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

@@ -1,17 +1,17 @@
 ---
 title: Target
-sidebar_position: 17
+sidebar_position: 18
 ---
 
 :::note
 **`Menentukan sasaran atau tujuan yang ingin dicapai`** dalam rentang waktu tertentu, baik target dalam ***penjualan, pembelian,*** maupun ***produksi***.
 
-Halaman Target dapat dilihat pada **Gambar 2.17.1**
+Halaman Target dapat dilihat pada **Gambar 2.18.1**
 :::
 
 <img src="/img/commerce/masterdata/target1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.17.1 Halaman Target
+Gambar 2.18.1 Halaman Target
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -25,7 +25,7 @@ Gambar 2.17.1 Halaman Target
 
 **`Berikut petunjuk dalam menambahkan target :`**
 
-1. **`Tekan tombol`** ***Add Target*** dan pengguna akan diarahkan pada halaman penambahan target seperti pada **Gambar 2.17.2**.
+1. **`Tekan tombol`** ***Add Target*** dan pengguna akan diarahkan pada halaman penambahan target seperti pada **Gambar 2.18.2**.
 
 :::note Target barang tertentu
 Target dengan format barang tertentu dapat dilakukan dengan `menghilangkan centang pada kolom checkbox` dengan menekan kolom checkbox kembali.
@@ -34,7 +34,7 @@ Target dengan format barang tertentu dapat dilakukan dengan `menghilangkan centa
 
 <img src="/img/commerce/masterdata/target2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.17.2 Halaman Add Target dengan ketentuan untuk item tertentu
+Gambar 2.18.2 Halaman Add Target dengan ketentuan untuk item tertentu
 </p>
 
 - `Pada halaman add target dengan barang tertentu` terdapat penambahan fitur, antara lain sebagai berikut.
@@ -57,7 +57,7 @@ Dalam penambahan target pengguna dapat menentukan target, apakah target untuk `k
 
 <img src="/img/commerce/masterdata/target3.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.17.3 Halaman Add Target dengan ketentuan untuk semua item
+Gambar 2.18.3 Halaman Add Target dengan ketentuan untuk semua item
 </p>
 
 2. **`Isilah data penambahan Target`** lalu tekan tombol ***Submit***.

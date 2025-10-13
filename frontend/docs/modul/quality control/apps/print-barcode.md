@@ -20,7 +20,7 @@ Gambar 3.1.1 Halaman Print Barcode
 |Category|Kategori pemeriksaan QC yang dilakukan.|Ya
 |Ticket Number|Nomor unik dokumen atau permintaan pengujian.|Ya
 |Source|Sumber sampel diambil.|Ya
-|Customer|Nama pelanggan
+|Customer|Nama pelanggan|Ya
 |Product|Nama produk yang diuji atau dikirim.|Ya
 |Sample Code|Kode identifikasi sampel (telah dibuat dari menu Sample Code).|Ya
 |Storage Tank|Nomor atau kode tangki tempat penyimpanan produk yang diambil sampelnya.|Ya

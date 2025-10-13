@@ -37,14 +37,18 @@ Gambar 6.1.2 Halaman Add Purchase Request
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
-|Supplier|Nama vendor atau penyedia barang/jasa yang akan dihubungi.|Ya
-|Requested By|Nama karyawan atau pengguna sistem yang mengajukan permintaan. Biasanya diisi otomatis oleh sistem sesuai akun login.|Ya
+|Request Number|Nomor unik yang diberikan untuk setiap Purchase Request (PR) yang dibuat.|Ya (Dapat diisi secara default oleh sistem, atau disesuaikan dengan kebutuhan.)
 |Department|Departemen atau divisi yang membutuhkan barang atau jasa tersebut.|Ya
+|Requested By|Nama karyawan atau pengguna sistem yang mengajukan permintaan. Biasanya diisi otomatis oleh sistem sesuai akun login.|Ya
 |Requested Date|Tanggal saat permintaan dibuat.|Ya
-|Note|Catatan umum terkait permintaan pembelian.|Tidak
+|Product ID|Kode unik untuk mengidentifikasi produk.|Otomatis terisi mengikuti product yang dipilih.
 |Product Name|Nama barang atau jasa yang diminta. Bisa dipilih dari daftar produk yang sudah terdaftar di sistem.|Ya
+|Description Product|Deskripsi produk agar mudah dipahami.|Tidak
 |Quantity|Jumlah unit barang atau jasa yang dibutuhkan.|Ya
 |UoM|Satuan dari produk tersebut, seperti pcs, liter, kg, meter, dll.|Otomatis terisi mengikuti product yang dipilih.
+|Currency|Mata uang yang digunakan untuk harga produk.|Ya
+|Unit Price|Harga per satuan produk sesuai currency.|Ya
+|Supplier|Nama pemasok yang menyediakan produk.|Ya
 |Delivery Date|Tanggal penerimaan barang.|Ya
 |Note (Product)|	Catatan khusus untuk produk tertentu. Misalnya: ukuran, warna, merk, spesifikasi teknis, atau kebutuhan khusus lainnya.|Tidak
 |File|Lampiran dokumen pendukung (opsional).|Tidak

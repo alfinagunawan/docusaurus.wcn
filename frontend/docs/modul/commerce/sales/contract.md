@@ -40,6 +40,9 @@ Gambar 7.1.2 Halaman Add Contract
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
 |Customer|Pilih pelanggan yang akan menjadi pihak dalam kontrak.|Ya
+|Address|Alamat lengkap dari customer yang terkait kontrak.|Ya
+|Bank|Nama bank milik customer (atau pihak yang menerima pembayaran).|Tidak
+|Account|Nomor rekening bank milik customer.|Tidak
 |Posting Date|Tanggal kontrak dicatat di sistem (biasanya tanggal hari ini atau saat kontrak dibuat).|Ya
 |Start Date|Tanggal mulai berlakunya kontrak.|Ya
 |End Date|Tanggal berakhirnya kontrak.|Ya
@@ -47,36 +50,41 @@ Gambar 7.1.2 Halaman Add Contract
 |Contact Person|Kontak dari pihak customer yang menjadi penanggung jawab.|Tidak
 |Bill To|Alamat penagihan (biasanya otomatis mengikuti customer).|Ya
 |Ship To|Alamat pengiriman barang.|Ya
+|Notify Party|Pihak ketiga yang perlu diberi pemberitahuan terkait kontrak, biasanya digunakan dalam konteks ekspor/impor atau logistik.|Tidak
 |Currency|Mata uang yang digunakan dalam kontrak (misalnya: IDR, USD).|Ya
 |Term Of Payment|Syarat pembayaran.|Tidak
+|Contract Number 1|Nomor kontrak utama yang digunakan sebagai referensi resmi.|Tidak
+|Contract Number 2|Nomor kontrak tambahan/alternatif jika ada format berbeda (misalnya kontrak internal perusahaan vs kontrak dari customer).|Tidak
 |PO Number|	Nomor Purchase Order dari customer.|Tidak
 |Sales Type|Jenis penjualan.|Tidak
 |Product|Produk yang termasuk dalam kontrak.|Ya
 |Other Details|Tempat menambahkan informasi tambahan (custom field).|Tidak
 |Note|Catatan tambahan, bisa diisi dengan penjelasan atau syarat khusus.|Tidak
+|Remark|Catatan singkat yang berfungsi sebagai penanda khusus kontrak.|Tidak
+|Internal Note|Catatan internal yang hanya bisa dilihat oleh tim perusahaan.|Tidak
 |File|	Upload file pendukung kontrak (misal: dokumen PO, perjanjian, dsb).|Tidak
 
-2. **`Pilih Product pada field`** ***Product***, dan sistem akan menampilkan detail produk, seperti ditunjukkan pada **Gambar 7.1.3**.
+2. **`Pilih Customer pada field`** ***Customer***, dan sistem akan menampilkan detail produk, seperti ditunjukkan pada **Gambar 7.1.3**.
 
 <img src="/img/commerce/sales/contract4.png" alt="Deskripsi gambar" class="center" />
-<img src="/img/commerce/sales/contract5.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
 Gambar 7.1.3 Form Detail Product
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
-|Address|Alamat tujuan pengiriman untuk produk tertentu ini.|Ya
-|Delivery Date|Tanggal barang harus dikirim atau sampai ke customer untuk produk tersebut.|Tidak
-|Note|Catatan umum yang terkait produk ini (misalnya: warna khusus, spesifikasi tambahan, dsb).|Tidak
-|Internal Note|	Catatan internal yang hanya bisa dilihat oleh tim internal.|Tidak
-|Price Per Unit|Harga satuan produk.|Ya
-|Total Quantity|Jumlah unit produk yang dipesan.|Ya
-|Premium Cost|Biaya tambahan untuk produk ini.|Tidak
-|Discount|Potongan harga khusus yang diberikan pada produk ini (bisa dalam persen atau nominal).|Tidak
-|Tax|Pajak yang dikenakan untuk produk ini, biasanya dalam bentuk PPN (misal: 11% VAT).|Tidak
-|With Holding Tax|Pajak pemotongan (misalnya PPh 23) yang dibayarkan langsung oleh customer ke pemerintah atas nama Anda.|Tidak
-|Discount (Order Summary)|Diskon keseluruhan dari total pesanan.|Tidak
+|Product ID|Kode unik produk yang terdaftar di master data.|Tidak
+|Product Name|Nama produk sesuai data master.|Tidak
+|Description|Keterangan tambahan mengenai produk, misalnya spesifikasi, ukuran, warna, atau detail jasa.|Tidak
+|Quantity|Jumlah barang/jasa yang dikontrakkan.|Tidak
+|UoM|Satuan pengukuran untuk quantity.|Tidak
+|Price Per Unit|Harga per satuan produk.|Tidak
+|Discount|Potongan harga yang diberikan, bisa dalam bentuk persentase (%) atau nominal (Rp).|Tidak
+|Tax|Pajak yang dikenakan pada produk, misalnya PPN 11%.|Tidak
+|With Holding Tax|Pajak yang dipotong dari transaksi (biasanya PPh 23 untuk jasa).|Tidak
+|Address|Alamat tujuan pengiriman produk dalam kontrak.|Tidak
+|Delivery Date|Tanggal barang dijadwalkan dikirim atau jasa diberikan.|Tidak
+|PO Number|Nomor Purchase Order dari customer (jika kontrak berbasis pesanan).|Tidak
 
 3. **`Isilah data penambahan Contract`**, lalu tekan tombol ***Submit***.
 

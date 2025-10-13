@@ -9,7 +9,7 @@ sidebar_position: 2
 Halaman Quotation dapat dilihat pada **Gambar 7.2.1**.
 :::
 
-<img src="/img/commerce/sales/contract1.png" alt="Deskripsi gambar" class="center" />
+<img src="/img/commerce/sales/quotation1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
 Gambar 7.2.1 Halaman Quotation
 </p>
@@ -46,36 +46,42 @@ Gambar 7.2.2 Halaman Add Quotation
 |Contact Person|Orang yang bisa dihubungi dari sisi customer terkait quotation ini.|Tidak
 |Bill To|Alamat atau pihak yang akan menerima tagihan/invoice.|Ya
 |Ship To|	Alamat pengiriman barang.|Ya
+|Notify Party|Pihak ketiga yang perlu diberi pemberitahuan terkait kontrak, biasanya digunakan dalam konteks ekspor/impor atau logistik.|Tidak
 |Posting Date|Tanggal saat quotation ini dimasukkan/diposting ke sistem.|Ya
 |Term Of Payment|Syarat pembayaran.|Tidak
 |Currency|Mata uang yang digunakan untuk quotation ini.|Ya
+|Contract Number 1|Nomor kontrak utama yang digunakan sebagai referensi resmi.|Tidak
+|Contract Number 2|Nomor kontrak tambahan/alternatif jika ada format berbeda (misalnya kontrak internal perusahaan vs kontrak dari customer).|Tidak
 |PO Number|Nomor Purchase Order dari customer jika sudah ada.|Tidak
 |Sales Type|Jenis penjualan.|Tidak
 |Product|Daftar produk atau jasa yang ditawarkan dalam quotation ini.|Tidak
-|File|Lampiran tambahan seperti spesifikasi teknis, gambar produk, brosur, atau dokumen pendukung lainnya.|Tidak
-|Note|Catatan tambahan terkait quotation, bisa berupa ketentuan khusus, info diskon, atau arahan dari customer.|Tidak
+|Other Details|Tempat menambahkan informasi tambahan (custom field).|Tidak
+|Note|Catatan tambahan, bisa diisi dengan penjelasan atau syarat khusus.|Tidak
+|Remark|Catatan singkat yang berfungsi sebagai penanda khusus kontrak.|Tidak
+|Internal Note|Catatan internal yang hanya bisa dilihat oleh tim perusahaan.|Tidak
+|File|	Upload file pendukung kontrak (misal: dokumen PO, perjanjian, dsb).|Tidak
 
-2. **`Pilih Product pada field`** ***Product***, dan sistem akan menampilkan detail produk, seperti ditunjukkan pada **Gambar 7.2.3**.
+2. **`Pilih Customer pada field`** ***Customer***, dan sistem akan menampilkan detail produk, seperti ditunjukkan pada **Gambar 7.2.3**.
 
 <img src="/img/commerce/sales/quotation4.png" alt="Deskripsi gambar" class="center" />
-<img src="/img/commerce/sales/quotation5.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
 Gambar 7.2.3 Form Detail Quotation
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
-|Address|Alamat tujuan pengiriman untuk produk tertentu ini.|Ya
-|Delivery Date|Tanggal barang harus dikirim atau sampai ke customer untuk produk tersebut.|Tidak
-|Note|Catatan umum yang terkait produk ini (misalnya: warna khusus, spesifikasi tambahan, dsb).|Tidak
-|Internal Note|	Catatan internal yang hanya bisa dilihat oleh tim internal.|Tidak
-|Price Per Unit|Harga satuan produk.|Ya
-|Total Quantity|Jumlah unit produk yang dipesan.|Ya
-|Premium Cost|Biaya tambahan untuk produk ini.|Tidak
-|Discount|Potongan harga khusus yang diberikan pada produk ini (bisa dalam persen atau nominal).|Tidak
-|Tax|Pajak yang dikenakan untuk produk ini, biasanya dalam bentuk PPN (misal: 11% VAT).|Tidak
-|With Holding Tax|Pajak pemotongan (misalnya PPh 23) yang dibayarkan langsung oleh customer ke pemerintah atas nama Anda.|Tidak
-|Discount (Order Summary)|Diskon keseluruhan dari total pesanan.|Tidak|
+|Product ID|Kode unik produk yang terdaftar di master data.|Tidak
+|Product Name|Nama produk sesuai data master.|Tidak
+|Description|Keterangan tambahan mengenai produk, misalnya spesifikasi, ukuran, warna, atau detail jasa.|Tidak
+|Quantity|Jumlah barang/jasa yang dikontrakkan.|Tidak
+|UoM|Satuan pengukuran untuk quantity.|Tidak
+|Price Per Unit|Harga per satuan produk.|Tidak
+|Discount|Potongan harga yang diberikan, bisa dalam bentuk persentase (%) atau nominal (Rp).|Tidak
+|Tax|Pajak yang dikenakan pada produk, misalnya PPN 11%.|Tidak
+|With Holding Tax|Pajak yang dipotong dari transaksi (biasanya PPh 23 untuk jasa).|Tidak
+|Address|Alamat tujuan pengiriman produk dalam kontrak.|Tidak
+|Delivery Date|Tanggal barang dijadwalkan dikirim atau jasa diberikan.|Tidak
+|PO Number|Nomor Purchase Order dari customer (jika kontrak berbasis pesanan).|Tidak
 
 3. **`Isilah data penambahan Quotation`**, lalu tekan tombol ***Submit***.
 

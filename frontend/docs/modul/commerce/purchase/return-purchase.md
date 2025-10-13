@@ -39,11 +39,11 @@ Gambar 6.5.2 Halaman Add Return Purchase
 |--|--|--|
 |Return By|Nama pengguna atau staff yang melakukan proses pengembalian barang.|Ya
 |Return Date|Tanggal saat barang dikembalikan ke supplier.|Ya
-|Purchase Order|Nomor atau referensi PO (Purchase Order) terkait barang yang dikembalikan.|Ya
+|Good Receipt|Nomor atau referensi Good Receipt terkait barang yang dikembalikan.|Ya
 |Note|Catatan tambahan terkait alasan pengembalian atau instruksi khusus (misalnya: “kemasan rusak”, “barang tidak sesuai spesifikasi”, dsb).|Tidak
 |File|	Lampiran dokumen pendukung, seperti foto kondisi barang yang dikembalikan, bukti surat jalan pengembalian, atau form retur fisik yang ditandatangani.|Tidak
 
-2. **`Pilih Purchase Order pada field`** ***Purchase Order***, dan sistem akan menampilkan detail produk yang terdapat pada PO tersebut, seperti ditunjukkan pada **Gambar 6.5.3**.
+2. **`Pilih Good Receipt pada field`** ***Good Receipt***, dan sistem akan menampilkan detail produk yang terdapat pada Good Receipt tersebut, seperti ditunjukkan pada **Gambar 6.5.3**.
 
 <img src="/img/commerce/purchase/return3.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>

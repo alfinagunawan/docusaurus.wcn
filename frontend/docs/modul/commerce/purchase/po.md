@@ -41,6 +41,7 @@ Gambar 6.2.2 Halaman Add Purchase Order
 |Supplier|Nama vendor atau penyedia barang/jasa yang akan dihubungi.|Ya
 |Supplier Address|Alamat supplier yang dipilih.|Ya
 |Contract Number|Nomor kontrak kerja sama (jika ada) antara perusahaan dan supplier, yang menjadi dasar transaksi.|Tidak
+|PO Number|Nomor unik yang diberikan pada setiap Purchase Order (PO) yang dibuat.|Ya
 |Posting Date|Tanggal pencatatan PO ke dalam sistem (bisa sama dengan tanggal pembuatan).|Ya
 |Purchase Type|Jenis pembelian|Tidak
 |Delivery Type|Cara atau jenis pengiriman barang.|Ya
@@ -51,8 +52,25 @@ Purchaser|Nama atau identitas pengguna (user) yang bertanggung jawab atas proses
 |Requested By|Nama karyawan atau user yang mengajukan permintaan pembelian.|Ya
 |Department|Divisi yang melakukan permintaan atau yang akan menggunakan barang/jasa yang dipesan.|Ya
 |Ship To|Alamat tujuan pengiriman barang dari supplier.|Ya
+|Delivery Date|Tanggal barang/jasa dijadwalkan untuk dikirim/diterima.|Tidak
+|Language Type|Bahasa yang digunakan dalam dokumen PO (misalnya: Indonesia, English).|Ya
 |Purchase Request|Referensi ke dokumen ***Purchase Request*** (PR) yang sebelumnya telah dibuat.|Ya
-|Product|Nama produk atau jasa yang dibeli.|Otomatis terisi mengikuti Purchase Request yang dipilih
+|Product ID|Kode unik produk yang dipesan.|Otomatis terisi mengikuti Purchase Request yang dipilih
+|Product Name|Nama produk atau jasa yang dibeli.|Otomatis terisi mengikuti Purchase Request yang dipilih
+|Description (Product)|Nama/deskripsi produk/jasa yang dipesan.|Tidak
+|Quantity|Nama/deskripsi produk/jasa yang dipesan.|Tidak
+|UoM|Satuan pengukuran produk.|Otomatis terisi mengikuti product yang dipilih
+|Price Per Unit|Harga satuan barang/jasa sesuai currency yang berlaku.|Tidak
+|Discount|Potongan harga yang diberikan supplier (bisa berupa persentase atau nominal).|Tidak
+|Premium Cost|Biaya tambahan khusus di luar harga dasar, misalnya biaya percepatan produksi atau kemasan khusus.|Tidak
+|Premium Note|Catatan/keterangan mengenai alasan atau detail premium cost.|Tidak
+|Base Price|Harga dasar setelah dikurangi diskon dan/atau ditambah premium cost.|Tidak
+|Tax|Pajak yang berlaku atas transaksi (misalnya PPN 11%).|Tidak
+|WH Tax|Pajak yang dipotong dari pembayaran ke supplier (misalnya PPh 23).|Tidak
+|Department|Unit/divisi peminta barang/jasa dalam perusahaan.|Tidak
+|Delivery Date|Tanggal barang/jasa dijadwalkan untuk dikirim/diterima.|Tidak
+|Delivery Tolerance|Batas toleransi atas jumlah barang yang dikirim dibanding yang dipesan.|Tidak
+|Reference Qty|Jumlah referensi dari dokumen lain (misalnya dari Purchase Request atau kontrak).|Tidak
 |Note|Catatan tambahan umum pada PO, seperti instruksi khusus atau persyaratan tertentu.|Tidak
 |Remark|Catatan tambahan umum pada PO, seperti instruksi khusus atau persyaratan tertentu.|Tidak
 |Internal Note|	Catatan khusus yang hanya terlihat oleh pihak internal perusahaan, tidak dikirim ke supplier.|Tidak

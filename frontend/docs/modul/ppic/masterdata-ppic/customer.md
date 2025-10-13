@@ -46,5 +46,6 @@ Gambar 2.9.2 Halaman Add Customer
 |Name|Nama pelanggan atau perusahaan.|Ya
 |ID|Nomor atau kode unik untuk customer|Ya
 |Address|Mencatat alamat lengkap pelanggan (Customer) yang bersangkutan.|Tidak
+|Color|Warna yang menandakan ciri setiap customer.|Tidak
 
 2. **`Isilah data penambahan Customer`** lalu tekan tombol ***Submit***.

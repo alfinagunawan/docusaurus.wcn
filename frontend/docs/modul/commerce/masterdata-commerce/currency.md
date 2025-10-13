@@ -1,17 +1,17 @@
 ---
 title: Currency
-sidebar_position: 18
+sidebar_position: 19
 ---
 
 :::note
 **`Menu ini digunakan untuk mengelola daftar mata uang yang digunakan dalam sistem.`** 
 
-Halaman Currency dapat dilihat pada **Gambar 2.18.1**
+Halaman Currency dapat dilihat pada **Gambar 2.19.1**
 :::
 
 <img src="/img/commerce/masterdata/currency1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.18.1 Halaman Currency
+Gambar 2.19.1 Halaman Currency
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -29,11 +29,11 @@ Gambar 2.18.1 Halaman Currency
 
 **`Berikut petunjuk dalam menambahkan Currency :`**
 
-1. **`Tekan tombol`** ***Add Currency*** dan pengguna akan diarahkan pada halaman penambahan mata uang seperti pada **Gambar 2.18.2**.
+1. **`Tekan tombol`** ***Add Currency*** dan pengguna akan diarahkan pada halaman penambahan mata uang seperti pada **Gambar 2.19.2**.
 
 <img src="/img/commerce/masterdata/currency2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.18.2 Halaman Add Currency
+Gambar 2.19.2 Halaman Add Currency
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -45,6 +45,7 @@ Gambar 2.18.2 Halaman Add Currency
 |Name|Nama lengkap dari mata uang.|Ya
 |Code|Kode standar mata uang berdasarkan ISO 4217.|Ya
 |Symbol|Simbol mata uang yang muncul pada tampilan nominal atau laporan.|Ya
+|Say|Menentukan kata yang dipakai dalam format terbilang mata uang di laporan atau transaksi.|Ya
 |Country|Negara asal atau negara utama yang menggunakan mata uang tersebut.|Ya
 |Decimal Places|Jumlah angka di belakang koma (desimal) yang digunakan pada mata uang tersebut.|Ya
 |Type|Jenis atau kategori mata uang, tergantung sistem.|Ya

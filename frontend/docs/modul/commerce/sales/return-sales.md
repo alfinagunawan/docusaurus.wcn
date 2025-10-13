@@ -38,23 +38,11 @@ Gambar 7.7.2 Halaman Add Return Sales
 |--|--|--|
 |Return By|Nama orang atau pihak (bisa customer atau perwakilannya) yang mengembalikan barang.|Ya
 |Return Date|Tanggal saat barang dikembalikan atau tanggal dokumen retur dibuat.|Ya
-|Sales Order|Nomor atau referensi ke Sales Order (SO) asal dari barang yang dikembalikan.|Ya
+|Delivery Order|Pemilihan nomor delivery order.|Ya
 |Note|Kolom catatan untuk menjelaskan alasan retur, kondisi barang, atau instruksi tambahan dari customer/tim internal.|Tidak
 |File|Tempat untuk mengunggah dokumen pendukung seperti foto barang yang dikembalikan, surat pengantar retur, tanda terima dari gudang, dll.|Tidak
 
-2. **`Pilih Sales Order pada field`** ***Sales Order***, dan sistem akan menampilkan detail produk, seperti ditunjukkan pada **Gambar 7.7.3**.
-
-<img src="/img/commerce/sales/return3.png" alt="Deskripsi gambar" class="center" />
-<p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 7.7.3 Form Detail Product
-</p>
-
-|Isian|Deskripsi|Wajib Diisi|
-|--|--|--|
-|Return Qty|Jumlah unit barang yang dikembalikan dari item yang ada dalam Sales Order terkait. **Field ini memungkinkan pengguna memilih produk mana yang dikembalikan dan dalam jumlah berapa.**|Ya
-|Note|Catatan khusus untuk masing-masing produk yang dikembalikan.|Tidak
-
-3. **`Isilah data penambahan Return Sales`**, lalu tekan tombol ***Submit***.
+2. **`Isilah data penambahan Return Sales`**, lalu tekan tombol ***Submit***.
 
 ## Setuju & Tolak `Return Sales ?`
 

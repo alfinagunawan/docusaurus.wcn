@@ -1,17 +1,17 @@
 ---
 title: Classification
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 :::note
 **`Menu ini digunakan untuk mengelompokkan produk atau item berdasarkan kriteria atau klasifikasi tertentu yang lebih spesifik`**.
 
-Halaman Classification dapat dilihat pada **Gambar 2.5.1**
+Halaman Classification dapat dilihat pada **Gambar 2.6.1**
 :::
 
 <img src="/img/commerce/masterdata/classification1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.5.1 Halaman Classification
+Gambar 2.6.1 Halaman Classification
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -29,11 +29,11 @@ Gambar 2.5.1 Halaman Classification
 
 **`Berikut petunjuk dalam menambahkan Classification :`**
 
-1. **`Tekan tombol`** ***Add Classification*** dan pengguna akan diarahkan pada halaman penambahan klasifikasi seperti pada **Gambar 2.5.2**.
+1. **`Tekan tombol`** ***Add Classification*** dan pengguna akan diarahkan pada halaman penambahan klasifikasi seperti pada **Gambar 2.6.2**.
 
 <img src="/img/commerce/masterdata/classification2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.5.2 Halaman Add Classification
+Gambar 2.6.2 Halaman Add Classification
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

@@ -1,17 +1,17 @@
 ---
 title: Department
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 :::note
 **`Menu ini digunakan untuk mengelompokkan struktur organisasi berdasarkan fungsi kerja atau unit yang ada dalam perusahaan. `**
 
-Halaman Department dapat dilihat pada **Gambar 2.8.1**
+Halaman Department dapat dilihat pada **Gambar 2.9.1**
 :::
 
 <img src="/img/commerce/masterdata/department1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.8.1 Halaman Department
+Gambar 2.9.1 Halaman Department
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -29,11 +29,11 @@ Gambar 2.8.1 Halaman Department
 
 **`Berikut petunjuk dalam menambahkan Department :`**
 
-1. **`Tekan tombol`** ***Add Department*** dan pengguna akan diarahkan pada halaman penambahan Department seperti pada **Gambar 2.8.2**.
+1. **`Tekan tombol`** ***Add Department*** dan pengguna akan diarahkan pada halaman penambahan Department seperti pada **Gambar 2.9.2**.
 
 <img src="/img/commerce/masterdata/department2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.8.2 Halaman Add Department
+Gambar 2.9.2 Halaman Add Department
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

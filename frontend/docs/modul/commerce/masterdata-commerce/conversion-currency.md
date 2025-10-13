@@ -1,17 +1,17 @@
 ---
 title: Conversion Currency
-sidebar_position: 19
+sidebar_position: 20
 ---
 
 :::note
 **`Tabel Konversi dibuat secara otomatis berdasarkan Currency yang terdaftar.`** 
 
-Halaman Conversion Currency dapat dilihat pada **Gambar 2.19.1**
+Halaman Conversion Currency dapat dilihat pada **Gambar 2.20.1**
 :::
 
 <img src="/img/commerce/masterdata/convercurrency1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.19.1 Halaman Conversion Currency
+Gambar 2.20.1 Halaman Conversion Currency
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -21,4 +21,3 @@ Gambar 2.19.1 Halaman Conversion Currency
 |Upload|Mengunggah mata uang dalam format file .xls atau .csv.|Tekan tombol Upload
 |Add|
 |Edit
- 

@@ -1,17 +1,17 @@
 ---
 title: Conversion UoM
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 :::note
 **`Menu ini digunakan untuk konversi antar satuan dari jenis pengukuran yang sama.`**
 
-Halaman Conversion UoM dapat dilihat pada **Gambar 2.2.1**.
+Halaman Conversion UoM dapat dilihat pada **Gambar 2.3.1**.
 :::
 
 <img src="/img/commerce/masterdata/converuom1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.2.1 Halaman Conversion UoM
+Gambar 2.3.1 Halaman Conversion UoM
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -29,11 +29,11 @@ Gambar 2.2.1 Halaman Conversion UoM
 
 **`Berikut petunjuk dalam menambahkan Conversion UoM :`**
 
-1. **`Tekan tombol`** ***Add Conversion UoM*** dan pengguna akan diarahkan pada halaman penambahan Konversi Satuan Ukuran seperti pada **Gambar 2.2.2**.
+1. **`Tekan tombol`** ***Add Conversion UoM*** dan pengguna akan diarahkan pada halaman penambahan Konversi Satuan Ukuran seperti pada **Gambar 2.3.2**.
 
 <img src="/img/commerce/masterdata/converuom2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.2.2 Halaman Add Conversion UoM
+Gambar 2.3.2 Halaman Add Conversion UoM
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

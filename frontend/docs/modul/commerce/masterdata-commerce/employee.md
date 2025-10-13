@@ -1,17 +1,17 @@
 ---
 title: Employee
-sidebar_position: 21
+sidebar_position: 22
 ---
 
 :::note
 **`Menu ini digunakan untuk mendata, mengelola, dan memonitor informasi seluruh karyawan yang bekerja di perusahaan. `** 
 
-Halaman Employee dapat dilihat pada **Gambar 2.21.1**
+Halaman Employee dapat dilihat pada **Gambar 2.22.1**
 :::
 
 <img src="/img/commerce/masterdata/employee1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.21.1 Halaman Employee
+Gambar 2.22.1 Halaman Employee
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -30,11 +30,11 @@ Gambar 2.21.1 Halaman Employee
 
 **`Berikut petunjuk dalam menambahkan Employee :`**
 
-1. **`Tekan tombol`** ***Add Employee*** dan pengguna akan diarahkan pada halaman penambahan karyawan seperti pada **Gambar 2.21.2**.
+1. **`Tekan tombol`** ***Add Employee*** dan pengguna akan diarahkan pada halaman penambahan karyawan seperti pada **Gambar 2.22.2**.
 
 <img src="/img/commerce/masterdata/employee2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.21.2 Halaman Add Employee
+Gambar 2.22.2 Halaman Add Employee
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

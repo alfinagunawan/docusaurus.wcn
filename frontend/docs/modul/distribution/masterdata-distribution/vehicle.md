@@ -17,10 +17,13 @@ Gambar 2.4.1 Halaman Menu Vehicle
 |Add|Menambah kendaraan.|Tekan tombol Add Vehile.|
 |Download|Mengunduh kendaraan dalam format file .xls atau .csv.|Tekan tombol Download.|
 |Upload|Mengunggah kendaraan dari file dengan format .xlsx, .xls, atau .csv.|Tekan tombol Upload.|
+|Sync Vehicle|Menyinkronkan (sinkronisasi) data kendaraan yang ada di sistem|Tekan tombol Sync Vehicle
 |Filter|Menyaring data dengan kondisi tertentu|Tekan tombol Filter.|
 |Reset Filter|Mengembalikan data pada kondisi semula|Tekan tombol Reset Filter.|
 |Vehicle Type|Jenis kepemilikan dari kendaraan (***WCN/NON WCN***)|Tekan selektor pada WCN/NON WCN
+|Details|Melihat informasi kendaraan secara lebih rinci.|Tekan tombol Details pada kolom Action.
 |Edit|Menyunting kendaraan.|Tekan tombol Edit pada kolom Action.|
+|Checklist|Melakukan pemeriksaan kondisi kendaraan (vehicle inspection) sebelum digunakan dalam operasional.|Tekan tombol Checklist pada kolom Action.
 |Delete|Menghapus kendaraan.|Tekan tombol Delete pada kolom Action.|
 |Multiple Delete|Menghapus beberapa kendaraan sekaligus.|Pilih kendaraan yang ingin dihapus dengan cara menekan baris atau dengan mencentang kotak pada sebelah kiri. Kemudian tekan tombol Multiple  Delete (berwarna merah).|
 
@@ -47,10 +50,22 @@ Gambar 2.4.1.1 Halaman Add Vehicle
 |Expired Vehicle Registration|Tanggal masa berlaku STNK kendaraan.|Tidak
 |Date End KIR|Tanggal kadaluarsa uji KIR (uji kelaikan kendaraan).|Tidak
 |Capacity|Kapasitas angkut kendaraan, biasanya dalam satuan liter (untuk tangki) atau ton/kilogram.|Tidak
-|Ownership|Kepemilikan kendaraan. Seperti: WCN (Perusahaan sendiri), NON WCN (pihak ketiga)|Tidak
+|Ownership|Kepemilikan kendaraan. Seperti : ***WCN*** (Perusahaan sendiri), ***NON WCN*** (pihak ketiga)|Tidak
 |Vehicle Category|Kategori kendaraan berdasarkan penggunaannya.|Tidak
 |Vehicle Type|Jenis fisik kendaraan.|Tidak
 |Material Tank|**Jenis material fisik** dari tangki kendaraan : ***STS (Stainless Steel)*** ➝ **Umumnya digunakan untuk mengangkut produk makanan, bahan kimia, atau cairan yang butuh standar higienis tinggi**, karena tahan terhadap karat dan mudah dibersihkan. ***SL (Steel / Mild Steel)*** ➝ Biasanya digunakan untuk cairan umum atau **bahan non-korosif**, namun tidak sebaik STS dalam hal ketahanan terhadap korosi.|Tidak
 |Kilometer|Jarak tempuh terakhir (odometer) dari kendaraan saat data dimasukkan atau diperbarui.|Tidak
 
 2. **`Isilah data penambahan Vehicle`** lalu tekan tombol ***Submit***.
+
+## Checklist `Vehicle ?`
+
+**`Berikut petunjuk dalam melakukan checklist Vehicle :`**
+
+1. **`Tekan tombol`** ***Checklist*** pada kolom action dan pengguna akan diarahkan pada halaman checklist kendaraan seperti pada **Gambar 2.4.1.2**.
+
+<img src="/img/masterdata/vehicle/vehicle 3.png" alt="Deskripsi gambar" class="center" />
+<p style={{textAlign: 'center', fontSize: '0.8em'}}>
+Gambar 2.4.1.2 Halaman Checklist Vehicle
+</p>
+

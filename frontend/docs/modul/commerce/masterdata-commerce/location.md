@@ -1,17 +1,17 @@
 ---
 title: Location
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 :::note
 **`Menu ini digunakan untuk mencatat, mengelola, dan memetakan lokasi fisik atau logis tempat penyimpanan barang atau berlangsungnya aktivitas tertentu dalam perusahaan, seperti produksi, penerimaan, pengiriman, dan lain-lain. `**
 
-Halaman Location dapat dilihat pada **Gambar 2.9.1**
+Halaman Location dapat dilihat pada **Gambar 2.10.1**
 :::
 
 <img src="/img/commerce/masterdata/location1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.9.1 Halaman Location
+Gambar 2.10.1 Halaman Location
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -30,11 +30,11 @@ Gambar 2.9.1 Halaman Location
 
 **`Berikut petunjuk dalam menambahkan Lokasi :`**
 
-1. **`Tekan tombol`** ***Add Location*** dan pengguna akan diarahkan pada halaman penambahan Lokasi seperti pada **Gambar 2.9.2**.
+1. **`Tekan tombol`** ***Add Location*** dan pengguna akan diarahkan pada halaman penambahan Lokasi seperti pada **Gambar 2.10.2**.
 
 <img src="/img/commerce/masterdata/location2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.9.2 Halaman Add Location
+Gambar 2.10.2 Halaman Add Location
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

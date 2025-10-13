@@ -1,0 +1,9 @@
+{
+    "label": "Report",
+    "position": 10,
+    "link": {
+      "type": "generated-index",
+      "description": "Menu Access Control berfungsi untuk menampilkan, menganalisis, dan mengekspor data yang sudah tercatat di sistem menjadi sebuah laporan."
+    }
+  }
+  

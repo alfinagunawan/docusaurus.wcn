@@ -46,7 +46,6 @@ Gambar 2.6.2 Halaman Add Tank
 |Product Type|Tipe Produk|Ya
 |Height (m)|Tinggi fisik tangki dalam meter. Digunakan untuk perhitungan volume.|Ya
 |Constant (Ton/meter)|Nilai konversi antara tinggi dan berat isi tangki.|Ya
-|Capacity (Ton)|Kapasitas maksimum tangki dalam satuan ton.|Tidak
 |Minimum Stock (ton)|Batas minimum stok yang disarankan/diperbolehkan. Dapat digunakan untuk peringatan jika stok terlalu rendah.|Tidak
 |Type |Jenis metode pengukuran level isi tangki: Radar (otomatis dengan sensor radar) atau Sounding (manual).|Ya
 

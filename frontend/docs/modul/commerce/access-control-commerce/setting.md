@@ -35,10 +35,21 @@ Gambar 9.1.2 Halaman Edit Setting
 |--|--|
 |NPWP Digit|	Digunakan untuk mengatur jumlah digit angka yang digunakan untuk Nomor Pokok Wajib Pajak (NPWP) dalam sistem.
 |NTKU Digit|Digunakan untuk menentukan jumlah digit untuk Nomor Terdaftar Kena Usaha (NTKU).
+
+2. **`Pindahkan opsi toggle untuk mengaktifkan form setting email`**, bila akan dilakukan pengaturan email. Sistem akan menampilkan form seperti yang ditunjukan pada Gambar 9.1.3.
+
+<img src="/img/commerce/access-control/setting3.png" alt="Deskripsi gambar" class="center" />
+<p style={{textAlign: 'center', fontSize: '0.8em'}}>
+Gambar 9.1.3 Form Setting Email
+</p>
+
+|Isian|Deskripsi|
+|--|--|
 |Send Email Alert|Merupakan opsi toggle (on/off) yang mengaktifkan atau menonaktifkan pengiriman notifikasi email otomatis dari sistem. Jika diaktifkan, sistem akan mengirimkan email berdasarkan event tertentu (misalnya notifikasi approval, reminder, dll).
 |SMTP Host|	Alamat server SMTP yang digunakan untuk mengirim email.
 |SMTP Port|Port yang digunakan untuk koneksi ke SMTP server.
 |SMTP Email|Alamat email yang digunakan sebagai pengirim email oleh sistem.
 |SMTP Password|Kata sandi dari email SMTP yang digunakan untuk otentikasi.
+|Type|Tipe kebutuhan pengaturan
 
-2. **`Isilah data terkait penyuntingan setting`** lalu tekan tombol ***Submit***.
+3. **`Isilah data terkait penyuntingan setting`** lalu tekan tombol ***Submit***.

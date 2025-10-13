@@ -30,48 +30,36 @@ Gambar 7.4.1 Halaman Income
 1. **`Tekan tombol`** ***Add Income*** dan pengguna akan diarahkan pada halaman penambahan data penerimaan uang seperti pada **Gambar 7.4.2**.
 
 <img src="/img/commerce/sales/income2.png" alt="Deskripsi gambar" class="center" />
-<img src="/img/commerce/sales/income3.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
 Gambar 7.4.2 Halaman Add Income
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
-|Customer|Nama pelanggan atau pihak yang melakukan pembayaran kepada perusahaan. Bisa diambil dari data master customer.|Ya
-|Required Date|Tanggal penerimaan dana diharapkan atau dijadwalkan.|Ya
-|Sales|Nama sales person yang menangani transaksi tersebut|Ya
-|Contact Person|Orang yang bisa dihubungi dari pihak customer terkait pembayaran ini.|Tidak
-|Bill To|Alamat penagihan atau pihak yang akan menerima invoice/kwitansi resmi.|Ya
-|Ship To|Alamat pengiriman barang|Ya
-|Posting Date|Tanggal pencatatan pemasukan ke sistem.|Ya
-|Term Of Payment|Syarat pembayaran yang telah disepakati dengan customer|Tidak
+|Posting Date|Tanggal pencatatan transaksi pemasukan di sistem.|Ya
 |Currency|Mata uang yang digunakan dalam transaksi, seperti IDR, USD, EUR.|Ya
 |Income Type|Jenis pemasukan yang diterima.|Tidak
-|PO Number|Nomor Purchase Order dari customer sebagai referensi bahwa pembayaran ini terkait transaksi resmi yang disetujui.|Tidak
-|Product|Nama produk atau jasa yang menjadi sumber pemasukan.|Ya
-|Note|	Catatan tambahan terkait transaksi pemasukan.|Tidak
+|Receive From|Nama pihak atau sumber dari mana uang diterima.|Ya
+|Note|Catatan tambahan terkait transaksi pemasukan.|Tidak
+|Remark|Keterangan singkat atau penanda khusus, biasanya untuk keperluan identifikasi cepat.|Tidak
+|Internal Note|Catatan untuk kepentingan internal perusahaan.|Tidak
 |File|Lampiran dokumen pendukung seperti bukti transfer, kwitansi, PO, invoice, atau nota pembayaran.|Tidak
 
-2. **`Pilih Product pada field`** ***Product***, dan sistem akan menampilkan detail produk, seperti ditunjukkan pada **Gambar 7.4.3**.
+2. **`Pilih Currency pada field`** ***Currency***, dan sistem akan menampilkan detail produk, seperti ditunjukkan pada **Gambar 7.4.3**.
 
 <img src="/img/commerce/sales/income4.png" alt="Deskripsi gambar" class="center" />
-<img src="/img/commerce/sales/income5.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
 Gambar 7.4.3 Form Detail Product
 </p>
 
 |Isian|Deskripsi|Wajib Diisi|
 |--|--|--|
-|Address|Alamat tujuan pengiriman untuk produk tertentu ini.|Ya
-|Delivery Date|Tanggal barang harus dikirim atau sampai ke customer untuk produk tersebut.|Tidak
-|Note|Catatan umum yang terkait produk ini (misalnya: warna khusus, spesifikasi tambahan, dsb).|Tidak
-|Internal Note|	Catatan internal yang hanya bisa dilihat oleh tim internal.|Tidak
-|Price Per Unit|Harga satuan produk.|Ya
-|Total Quantity|Jumlah unit produk yang dipesan.|Ya
-|Discount|Potongan harga khusus yang diberikan pada produk ini (bisa dalam persen atau nominal).|Tidak
-|Tax|Pajak yang dikenakan untuk produk ini, biasanya dalam bentuk PPN (misal: 11% VAT).|Tidak
-|With Holding Tax|Pajak pemotongan (misalnya PPh 23) yang dibayarkan langsung oleh customer ke pemerintah atas nama Anda.|Tidak
-|Discount (Order Summary)|Diskon keseluruhan dari total pesanan.|Tidak
+|Product Name|Nama produk atau jasa yang menjadi sumber pemasukan.|Tidak
+|Product ID|Kode unik produk/jasa dari master product di sistem.|Tidak
+|Description|Penjelasan tambahan mengenai produk/jasa atau detail income.|Tidak
+|Nominal|Nilai rupiah atau jumlah uang yang diterima dari produk/jasa tersebut.|Tidak
+|Customer|Nama pihak yang membayar (pembeli/pelanggan).|Tidak
+|CoA|Akun akuntansi yang digunakan untuk mencatat pemasukan produk/jasa tersebut.|Tidak
 
 3. **`Isilah data penambahan Income`**, lalu tekan tombol ***Submit***.
 

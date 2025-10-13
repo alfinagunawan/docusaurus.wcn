@@ -1,17 +1,17 @@
 ---
 title: Product
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 :::note
 **`Menu ini digunakan untuk menambahkan informasi detail mengenai suatu produk ke dalam sistem.`** Produk ini dapat berupa barang (item), jasa (service), atau entitas lain seperti tenaga kerja (labour) atau perjalanan (travel), tergantung pada jenis bisnis.
 
-Halaman Product dapat dilihat pada **Gambar 2.6.1**
+Halaman Product dapat dilihat pada **Gambar 2.7.1**
 :::
 
 <img src="/img/commerce/masterdata/product1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.6.1 Halaman Product
+Gambar 2.7.1 Halaman Product
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -30,12 +30,12 @@ Gambar 2.6.1 Halaman Product
 
 **`Berikut petunjuk dalam menambahkan Product :`**
 
-1. **`Tekan tombol`** ***Add Product*** dan pengguna akan diarahkan pada halaman penambahan produk seperti pada **Gambar 2.6.2**.
+1. **`Tekan tombol`** ***Add Product*** dan pengguna akan diarahkan pada halaman penambahan produk seperti pada **Gambar 2.7.2**.
 
 <img src="/img/commerce/masterdata/product2.png" alt="Deskripsi gambar" class="center" />
 <img src="/img/commerce/masterdata/product3.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.6.2 Halaman Add Product
+Gambar 2.7.2 Halaman Add Product
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

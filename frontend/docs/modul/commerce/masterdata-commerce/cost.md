@@ -1,17 +1,17 @@
 ---
 title: Cost
-sidebar_position: 23
+sidebar_position: 25
 ---
 
 :::note
 **`Menu ini digunakan untuk mencatat biaya/pengeluaran tertentu yang terjadi dalam aktivitas perusahaan, seperti biaya operasional, transportasi, administrasi, dan lainnya. `** 
 
-Halaman Cost dapat dilihat pada **Gambar 2.23.1**
+Halaman Cost dapat dilihat pada **Gambar 2.25.1**
 :::
 
 <img src="/img/commerce/masterdata/cost1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.23.1 Halaman Cost
+Gambar 2.25.1 Halaman Cost
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -29,11 +29,11 @@ Gambar 2.23.1 Halaman Cost
 
 **`Berikut petunjuk dalam menambahkan Cost :`**
 
-1. **`Tekan tombol`** ***Add Cost*** dan pengguna akan diarahkan pada halaman penambahan biaya/pengeluaran seperti pada **Gambar 2.23.2**.
+1. **`Tekan tombol`** ***Add Cost*** dan pengguna akan diarahkan pada halaman penambahan biaya/pengeluaran seperti pada **Gambar 2.25.2**.
 
 <img src="/img/commerce/masterdata/cost2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.23.2 Halaman Add Cost
+Gambar 2.25.2 Halaman Add Cost
 </p>
 
 |Fitur|Deskripsi|Cara Akses|

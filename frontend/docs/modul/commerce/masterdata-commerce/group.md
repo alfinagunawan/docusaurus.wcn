@@ -1,17 +1,17 @@
 ---
 title: Group
-sidebar_position: 12
+sidebar_position: 13
 ---
 
 :::note
 **`Menu ini digunakan untuk mengelompokkan data pelanggan (customer) dan pemasok (supplier) ke dalam beberapa kategori tertentu. `** 
 
-Halaman Group dapat dilihat pada **Gambar 2.12.1**
+Halaman Group dapat dilihat pada **Gambar 2.13.1**
 :::
 
 <img src="/img/commerce/masterdata/group1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.12.1 Halaman Group
+Gambar 2.13.1 Halaman Group
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -29,11 +29,11 @@ Gambar 2.12.1 Halaman Group
 
 **`Berikut petunjuk dalam menambahkan Group :`**
 
-1. **`Tekan tombol`** ***Add Group*** dan pengguna akan diarahkan pada halaman penambahan Group seperti pada **Gambar 2.12.2**.
+1. **`Tekan tombol`** ***Add Group*** dan pengguna akan diarahkan pada halaman penambahan Group seperti pada **Gambar 2.13.2**.
 
 <img src="/img/commerce/masterdata/group2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.12.2 Halaman Add Group
+Gambar 2.13.2 Halaman Add Group
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -46,5 +46,6 @@ Gambar 2.12.2 Halaman Add Group
 |Format|Pola penomoran otomatis atau format kode yang akan digunakan untuk entri data yang tergabung dalam grup ini.|Tidak
 |Name|Nama dari grup tersebut. Nama ini akan ditampilkan saat user memilih group di menu Customer atau Supplier.|Ya
 |Description|Penjelasan tambahan mengenai fungsi, karakteristik, atau kriteria grup ini.|Tidak
+|Transaction|Menentukan jenis transaksi utama yang dilakukan oleh Customer atau Supplier dalam grup tersebut. ***Local*** : Digunakan jika transaksi hanya dilakukan di dalam negeri (domestik). ***Foreign*** : Digunakan jika transaksi dilakukan dengan pihak luar negeri.|Ya
 
 2. **`Isilah data penambahan Group`** lalu tekan tombol ***Submit***.

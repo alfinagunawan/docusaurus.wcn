@@ -1,17 +1,17 @@
 ---
 title: Term Of Payment
-sidebar_position: 15
+sidebar_position: 16
 ---
 
 :::note
 **`Menu ini digunakan untuk mengelola syarat atau ketentuan pembayaran antara perusahaan dengan pihak ketiga, baik itu customer maupun supplier. `** 
 
-Halaman Term Of Payment dapat dilihat pada **Gambar 2.15.1**
+Halaman Term Of Payment dapat dilihat pada **Gambar 2.16.1**
 :::
 
 <img src="/img/commerce/masterdata/term1.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.15.1 Halaman Term Of Payment
+Gambar 2.16.1 Halaman Term Of Payment
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
@@ -29,11 +29,11 @@ Gambar 2.15.1 Halaman Term Of Payment
 
 **`Berikut petunjuk dalam menambahkan Term Of Payment :`**
 
-1. **`Tekan tombol`** ***Add Term Of Payment*** dan pengguna akan diarahkan pada halaman penambahan syarat atau ketentuan seperti pada **Gambar 2.15.2**.
+1. **`Tekan tombol`** ***Add Term Of Payment*** dan pengguna akan diarahkan pada halaman penambahan syarat atau ketentuan seperti pada **Gambar 2.16.2**.
 
 <img src="/img/commerce/masterdata/term2.png" alt="Deskripsi gambar" class="center" />
 <p style={{textAlign: 'center', fontSize: '0.8em'}}>
-Gambar 2.15.2 Halaman Add Term Of Payment
+Gambar 2.16.2 Halaman Add Term Of Payment
 </p>
 
 |Fitur|Deskripsi|Cara Akses|
